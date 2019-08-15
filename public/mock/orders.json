@@ -2,28 +2,28 @@
     {
         "id": 1,
         "shop": "院落创意菜",
-        "picture": "",
+        "picture": "https://s2.ax1x.com/2019/03/25/AtqivQ.png",
         "product": "百香果（冷饮）1扎",
         "price": 19.9,
         "ifCommented": true
     },{
         "id": 2,
         "shop": "正一味",
-        "picture": "",
+        "picture": "https://s2.ax1x.com/2019/03/25/AtqivQ.png",
         "product": "肥牛石锅拌饭+鸡蛋羹一份",
         "price": 29,
         "ifCommented": false
     },{
         "id": 3,
         "shop": "Salud冻酸奶",
-        "picture": "",
+        "picture": "https://s2.ax1x.com/2019/03/25/AtqivQ.png",
         "product": "冻酸奶（小杯）1杯",
         "price": 20,
         "ifCommented": false
     },{
         "id": 4,
         "shop": "吉野家",
-        "picture": "",
+        "picture": "https://s2.ax1x.com/2019/03/25/AtqivQ.png",
         "product": "吉汁烧鱼+中杯汽水/紫菜蛋花汤1份",
         "price": 14,
         "ifCommented": false
