@@ -21,10 +21,12 @@ class OrderItem extends Component {
                     value={this.state.comment}
                 />
                 {this.renderStars()}
-                <button className='orderItem__btn orderItem__btn--red'
-                    onClick={this.handleSubmitComment} >提交</button>
-                <button className='orderItem__btn orderItem__btn--grey'
-                    onClick={this.handleCancelComment} >取消</button>
+                <div className="orderItem__btnAll">
+                    <button className='orderItem__btn orderItem__btn--red'
+                        onClick={this.handleSubmitComment} >提交</button>
+                    <button className='orderItem__btn orderItem__btn--grey'
+                        onClick={this.handleCancelComment} >取消</button>
+                </div>
             </div>
         )
     }
@@ -49,7 +51,7 @@ class OrderItem extends Component {
     renderStars() {
         const { stars } = this.state;
         return (
-            <div>
+            <div className="orderItem__starContant">
                 {
                     [1, 2, 3, 4, 5].map((item, index) => {
                         const lightClass = stars >= item ?

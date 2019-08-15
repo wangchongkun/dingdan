@@ -87,9 +87,15 @@
     width: 100%;
     height: 100px;
   }
+  .orderItem__starContant {
+      text-align: left;
+  }
   .orderItem__star {
       color: #777;
   }
   .orderItem__star--light{
     color: #fab700;
   }
+.orderItem__btnAll {
+    text-align: left;
+}
